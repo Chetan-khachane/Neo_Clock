@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8eff5;
+    height: 100vh;
+    transition: all 1s ease-in-out;
+}
+
+.blackBody {
+    background-color: #141414;
+}
+
+.datepanel {
+    display: flex;
+    width: 40vw;
+    transform: translate(30vw, 10vh);
+    justify-content: center;
+}
+
+.spanDate {
+    color: #203A43;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    transform: translate(-1rem, 1.3rem);
+}
+
+.date {
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(134, 123, 123);
+}
+
+
+
+
+
+
+
+
+
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform: translateY(4rem);
+}
+
+
+.digits {
+    width: 10rem;
+    height: 10rem;
+    margin: 0.6rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #373B44;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    box-shadow: 7px 7px 15px #bbcfda,
+        -4px -4px 13px #fff,
+        inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+        inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 1s ease-in-out;
+
+}
+
+
+
+.btnBack {
+    margin-left: 2rem;
+    width: 4rem;
+    height: 2rem;
+    background-color: rgba(139, 228, 231, 0.869);
+    border-radius: 50px;
+
+}
+
+.modeChange {
+    transform: translateY(2rem);
+    margin-left: 2rem;
+}
+
+.modeChange span {
+    margin-left: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #f64f59;
+
+}
+
+.mode {
+    width: 2rem;
+    height: 100%;
+    border-radius: 50rem;
+    outline: none;
+    border: 2px solid rgba(176, 226, 236, 0.102);
+
+}
+
+.mode {
+    box-shadow: 7px 7px 15px #bbcfda,
+        -4px -4px 13px #fff,
+        inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+        inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.modeMoveX {
+    transform: translateX(2rem);
+    transition: all 1s;
+}
+
+.modeMove {
+    transform: translateX(-0.5rem);
+    transition: all 1s;
+}
+
+.digitsDark {
+    box-shadow: 6px 6px 12px #0c0c0c,
+        -6px -6px 12px #1c1c1c;
+    border: none;
+    color: #009FFF;
+    transition: all 1s ease-in-out;
+}
+
+.modeDark {
+    box-shadow: 6px 6px 12px #0c0c0c,
+        -6px -6px 12px #1c1c1c;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    width: 7rem;
+    transition: all 2s ease-in-out;
+}
+
+.greenSpan {
+    color: rgb(0, 255, 123);
+    transition: all 1s ease-in-out;
+}
+
+.violetSpan {
+    color: #159957;
+    transition: all 1s ease-in-out;
+}
+
+.dateColor {
+    color: #F2C94C;
+    transition: all 2s 1s ease-in-out;
+}
+
+.exp {
+    display: flex;
+
+}
+
+/* for black neomorphism
+ 6px 6px 12px #0c0c0c,
+    -6px -6px 12px #1c1c1c; */
